@@ -2377,3 +2377,44 @@ input:checked+.terms-showMore #close{
 .form-prefixPostfix.wrap.hide {
     display: none;
 }
+
+// 
+.medium-zoom-image {
+    cursor: pointer;
+    cursor: zoom-in;
+    transition: transform .3s;
+}
+ul.productView-thumbs {
+    position: absolute;
+    top: 0;
+    list-style: none;
+}
+.productView-img-container img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    max-height: 100%;
+    cursor: pointer;
+    cursor: zoom-in;
+    transition: transform .3s;
+}
+.productView-images {
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+}
+.productView-images .productView-image.has-thumbs {
+    float: none;
+    width: 100%;
+}
+
+.productView-img-container {
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+}
+

@@ -1,8 +1,6 @@
 <div class="productView" {{#if settings.data_tag_enabled}} data-event-type="product" data-entity-id="{{product.id}}" data-name="{{product.title}}" data-product-category="{{#each product.category}}{{#if @last}}{{this}}{{else}}{{this}}, {{/if}}{{/each}}" data-product-brand="{{product.brand.name}}" data-product-price="{{#if product.price.with_tax}}{{product.price.with_tax.value}}{{else}}{{product.price.without_tax.value}}{{/if}}" data-product-variant="single-product-option"{{/if}}>
 
 
- 
-
     <section class="productView-images" data-image-gallery>
         <figure class="productView-image {{#gt product.images.length 1}}has-thumbs{{/gt}}"
                 data-image-gallery-main
@@ -10,7 +8,7 @@
                 >
             <div class="productView-img-container">
                 <a href="{{getImage product.main_image 'zoom_size' (cdn theme_settings.default_image_product)}}">
-                    <img class="productView-image--default lazyload"
+                    <img class="productView-image--default lazyload medium-zoom-image"
                          data-sizes="auto"
                          src="{{cdn 'img/loading.svg'}}"
                          data-src="{{getImage product.main_image (cdn theme_settings.default_image_product)}}"
