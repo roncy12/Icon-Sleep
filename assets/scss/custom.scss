@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{font-family: 'Montserrat', sans-serif !important	;}
+h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif !important	;}
+.navUser-action svg {
+    fill: #fff;
+}
+#menu .navPages ul.navPages-list > li.navPages-item:hover > a + div.navPage-subMenu {
+    display: block;
+    left: 0;
+    width: 100%;
+  }
 
+  .header .navPages-item .navPage-subMenu, .header .navPages-item:hover .navPage-subMenu{
+    @media (min-width: 992px){
+    background: rgba(0,0,0,.85);
+    }
+}
+.navPage-subMenu.is-open {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+    transition: all .3s linear 0s;
+    left: 15px;
+}
 .fade-in {
   opacity: 0;
   transition: opacity 250ms ease-in;
@@ -195,7 +218,7 @@ a.social-media.icon {
     padding: 0;
     position: relative;
     width: 100%;
-    margin-top: 16em;
+    margin-top: 11em;
     max-width: 100%;
     background-size: cover;
 }
@@ -2418,3 +2441,13 @@ ul.productView-thumbs {
     width: 100%;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    margin-top: 11em;
+    max-width: 100%;
+    background-size: cover;
+}

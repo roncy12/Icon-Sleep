@@ -1,9 +1,14 @@
+<nav class="navPages">
+    <li class="navPages-item navPages-item-page">
 {{#if children}}
 <a class="navPages-action has-subMenu{{#if is_active}} activePage{{/if}}"
    href="{{url}}"
    data-collapsible="navPages-{{id}}"
->
-    {{name}}
+>        {{name}}
+</a>
+
+</li>
+
     <i class="icon navPages-action-moreIcon" aria-hidden="true">
         <svg><use xlink:href="#icon-chevron-down" /></svg>
     </i>
@@ -69,3 +74,4 @@
     {{name}}
 </a>
 {{/if}}
+</nav>

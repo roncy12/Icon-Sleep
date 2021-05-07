@@ -153,6 +153,19 @@ article.sectionarticle .blog-thumbnail.blog-img {
 }
 
 @media only screen and (max-width: 1080px) {
+    ul.navPages-list {
+        width: 45% !important;
+        margin-left: 16em;
+    }
+    
+    .navUser {
+        padding: 0 1.5rem;
+        position: relative;
+        right: 0em;
+        top: auto;
+        transform: none;
+        z-index: 50;
+    }
     .flex-container {
         display: flex;
         max-width: 85%;
