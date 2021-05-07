@@ -218,11 +218,10 @@ a.social-media.icon {
     padding: 0;
     position: relative;
     width: 100%;
-    margin-top: 11em;
+    margin-top: 16em;
     max-width: 100%;
     background-size: cover;
 }
-
 /** End Of Body & Container **/
 .main.full {
     margin: 0 -.75rem;
@@ -2441,13 +2440,32 @@ ul.productView-thumbs {
     width: 100%;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    position: relative;
+.productView-options .form-field {
+    font-size: 0;
+    margin-bottom: 2rem;
     width: 100%;
-    margin-top: 11em;
-    max-width: 100%;
-    background-size: cover;
+}
+.productView-details {
+    width: 100%;
+    background: #f2ece8ba;
+}
+.cus-options {
+    display: flex;
+    width: 100%;
+}
+
+h1.productView-title {
+    color: #000;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif!important;
+    color: #174567;
+    margin-bottom: 0;
+}
+
+span#stamped-badge-total {
+    color: #000;
+}
+
+span#stamped-badge-title {
+    color: #000;
 }
