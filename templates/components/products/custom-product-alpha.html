@@ -62,6 +62,42 @@
         </ul>
         {{/gt}}
     </section>
+
+    <div id="add-to-cart-wrapper">
+        <div class="form-field form-field--increments">
+            <label class="form-label form-label--alternate" for="qty[]">Quantity:</label>
+                <div class="form-increment" data-quantity-change="">
+                    <button class="button button--icon" data-action="dec">
+                        <span class="is-srOnly">Decrease Quantity of undefined</span>
+                        <i class="icon" aria-hidden="true">
+                            <svg>
+                                <use xlink:href="#icon-keyboard-arrow-down"></use>
+                            </svg>
+                        </i>
+                    </button>
+                    <input class="form-input form-input--incrementTotal" id="qty[]" name="qty[]" type="tel" value="1" data-quantity-min="0" data-quantity-max="0" min="1" pattern="[0-9]*" aria-live="polite">
+                    <button class="button button--icon" data-action="inc">
+                        <span class="is-srOnly">Increase Quantity of undefined</span>
+                        <i class="icon" aria-hidden="true">
+                            <svg>
+                                <use xlink:href="#icon-keyboard-arrow-up"></use>
+                            </svg>
+                        </i>
+                    </button>
+                </div>
+        </div>
+
+    <div class="alertBox productAttributes-message" style="display:none">
+        <div class="alertBox-column alertBox-icon">
+            <icon glyph="ic-success" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path></svg></icon>
+        </div>
+        <p class="alertBox-column alertBox-message"></p>
+    </div>
+        <div class="form-action">
+            <input id="form-action-addToCart" data-wait-message="Adding to cart…" class="button button--primary" type="submit" value="Add to Cart">
+            <span class="product-status-message aria-description--hidden">Adding to cart… The item has been added</span>
+        </div>
+</div>
     <div id="stamped-main-widget" class="stamped-main-widget stamped-style-borderless" data-product-id="118" data-name="Alpha Gel Memory Foam Mattress" data-product-sku="Alpha-Config" data-url="https://icon-sleep.com/alpha-gel-memory-foam-mattress/" data-image-url="https://cdn11.bigcommerce.com/s-z2qdisybty/images/stencil/original/products/118/440/Blank_Bedroom__86253.1600677953.jpg?c=1">
         </div>
   
