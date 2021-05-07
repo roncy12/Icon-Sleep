@@ -62,9 +62,124 @@
         </ul>
         {{/gt}}
     </section>
-
     <div id="stamped-main-widget" class="stamped-main-widget stamped-style-borderless" data-product-id="118" data-name="Alpha Gel Memory Foam Mattress" data-product-sku="Alpha-Config" data-url="https://icon-sleep.com/alpha-gel-memory-foam-mattress/" data-image-url="https://cdn11.bigcommerce.com/s-z2qdisybty/images/stencil/original/products/118/440/Blank_Bedroom__86253.1600677953.jpg?c=1">
-    </div>
+        </div>
+  
+            <ul class="stamped-tabs">
+                <li id="tab-reviews" class="active" data-type="reviews" data-count="0" aria-label="Reviews" tabindex="0">Reviews</li>
+                <li id="tab-questions" data-type="questions" style="display:none;" data-count="0" aria-label="Questions" tabindex="0" data-new-tab="">Questions</li>
+            </ul>      
+        <form method="post" id="new-review-form_118" class="new-review-form" onsubmit="event.preventDefault(); StampedFn.submitForm(this);" style="display:none;">
+            
+            <input type="hidden" name="productId" value="118">
+            <div class="stamped-form-title" style=" display:none;">Write a review</div>
+            <fieldset class="stamped-form-contact">
+            <legend style="display:none;">Author</legend>
+                <div class="stamped-form-contact-name">
+                    <label class="stamped-form-label" for="review_author_118">Name</label>
+                    <input class="stamped-form-input stamped-form-input-text " id="review_author_118" type="text" name="author" required="" value="" placeholder="Enter your name" autocomplete="name">
+                </div>
+                <div class="stamped-form-contact-email">
+                    <label class="stamped-form-label" for="review_email_118">Email</label>
+                    <input class="stamped-form-input stamped-form-input-email " id="review_email_118" type="email" name="email" required="" value="" placeholder="john.smith@example.com" autocomplete="email">
+                </div>
+                <div class="stamped-form-contact-location">
+                    <label class="stamped-form-label" for="review_location_118">Location</label>
+                    <input class="stamped-form-input stamped-form-input-text " id="review_location_118" type="text" name="location" value="" placeholder="e.g Paris, France" autocomplete="shipping country">
+                </div>
+            </fieldset>
+            <fieldset class="stamped-form-review">
+            <legend style="display:none;">Rating</legend>
+                <div class="stamped-form-review-rating">
+                    <label class="stamped-form-label" for="reviewRating">Rating</label>
+                    <input type="text" id="reviewRating" name="reviewRating" style="font-size: 0px; border: none; height: 1px; width: 1px; margin: 0; padding: 0; line-height: 0px; min-height: 0px;" required="">
+               
+                    <div class="stamped-form-input stamped-starrating"> <a onclick="StampedFn.setRating(this);return false;" class="stamped-fa stamped-fa-star-o" data-value="1" tabindex="0" aria-label="1 star rating"><span style="display:none;">1</span></a> <a onclick="StampedFn.setRating(this);return false;" class="stamped-fa stamped-fa-star-o" data-value="2" tabindex="0" aria-label="2 stars rating"><span style="display:none;">2</span></a> <a onclick="StampedFn.setRating(this);return false;" class="stamped-fa stamped-fa-star-o" data-value="3" tabindex="0" aria-label="3 stars rating"><span style="display:none;">3</span></a> <a onclick="StampedFn.setRating(this);return false;" class="stamped-fa stamped-fa-star-o" data-value="4" tabindex="0" aria-label="4 stars rating"><span style="display:none;">4</span></a> <a onclick="StampedFn.setRating(this);return false;" class="stamped-fa stamped-fa-star-o" data-value="5" tabindex="0" aria-label="5 stars rating"><span style="display:none;">5</span></a> </div>
+            </div>
+                <div class="stamped-form-review-title">
+                    <label class="stamped-form-label" for="review_title_118">Title of Review</label>
+                    <input class="stamped-form-input stamped-form-input-text" id="review_title_118" type="text" name="reviewTitle" required="" value="" placeholder="Give your review a title">
+                </div>
+                <div class="stamped-form-review-body">
+                    <label class="stamped-form-label" for="review_body_118">How was your overall experience?</label>
+                    <div class="stamped-form-input">
+                        <textarea class="stamped-form-input stamped-form-input-textarea" id="review_body_118" data-product-id="118" name="reviewMessage" required="" rows="10" maxlength="5000"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="stamped-form-custom-questions">
+            <legend style="display:none;">Questions</legend>
+                
+            </fieldset>
+            <fieldset class="stamped-form-actions">
+            <legend style="display:none;">Photos</legend>
+                <span class="stamped-file-holder">
+        
+                </span>
+                <span class="stamped-file-uploader" style="display:none;">
+               <label for="stamped-file-uploader-input">
+                <span style="display:none;">Upload</span>
+                <input id="stamped-file-uploader-input" type="file" name="stamped-file-uploader-input" class="stamped-file-uploader-input" multiple="" data-product-id="118" style="display:none;">
+                    
+                        <span class="stamped-file-uploader-btn" style="border:1px solid #333;padding: 6px 10px; font-size:13px; border-radius: .3em;">
+                            <i class="stamped-fa stamped-fa-camera"></i>
+                            <span class="stamped-file-uploader-btn-label2"></span>
+                        </span>
+                    </label>
+                </span>
+                <span class="stamped-file-loading hide" style="display:none;">
+                    <i class="fa fa-spinner fa-spin"></i>
+                </span>
+        
+                <input id="stamped-button-submit" type="submit" class="stamped-button stamped-button-primary button button-primary btn btn-primary" value="Submit">
+            </fieldset>
+        </form>
+        <div class="stamped-messages"><div class="stamped-thank-you"><p>Thank you for submitting a review!</p><p>Your input is very much appreciated. Share it with your friends so they can enjoy it too!</p><div class="stamped-share-links"><a class="facebook"><span><i class="stamped-fa stamped-fa-facebook"></i>Facebook</span></a><a class="twitter"><span><i class="stamped-fa stamped-fa-twitter"></i>Twitter</span></a></div></div><div class="stamped-empty-state" style="display:none;"><div>Be the first to review this item</div></div></div><div class="stamped-reviews-filter" id="stamped-reviews-filter" data-show-filters="">
+        <span class="stamped-sort-select-wrapper">
+                <select id="stamped-sort-select" class="stamped-sort-select" onchange="StampedFn.sortReviews(this);" aria-label="Sort reviews" tabindex="0">
+                    <option value="featured" selected="">Sort</option>
+                    <option value="recent">Most Recent</option>
+                    <option value="highest-rating">Highest Rating</option>
+                    <option value="lowest-rating">Lowest Rating</option>
+                    <option value="most-votes">Most Helpful</option>
+                </select>
+        </span>
+        
+            <div class="stamped-reviews-filter-label">Filter Reviews:</div>
+        
+            <div class="stamped-reviews-search-text" style="display:none;">
+                <span class="stamped-reviews-search-icon stamped-fa stamped-fa-search"></span>
+                <input id="stamped-reviews-search-input" class="stamped-reviews-search-input" type="text" placeholder="Search Reviews" aria-label="Search reviews input">
+                <span class="stamped-reviews-search-button"></span>
+            <span class="stamped-reviews-search-clear" tabindex="0" aria-label="Clear search input" role="button" style="display:none;">×</span>
+            </div>
+        
+        <div class="stamped-filters-wrapper">
+            <div class="stamped-summary-keywords">
+                <ul class="stamped-summary-keywords-list">
+                    
+                </ul>
+            </div>
+        
+            <div class="stamped-filter-selects">
+                
+            <span class="stamped-sort-select2-wrapper" style="display:none;">
+            <select id="stamped-sort-select2" class="stamped-sort-select" onchange="StampedFn.sortReviews(this);" aria-label="Sort reviews and ratings" tabindex="0" style="display:none;">
+                    <option value="featured" selected="">Sort</option>
+                    <option value="recent">Most Recent</option>
+                    <option value="highest-rating">Highest Rating</option>
+                    <option value="lowest-rating">Lowest Rating</option>
+                    <option value="most-votes">Most Helpful</option>
+                </select>
+        </span>
+            </div>
+        </div>
+        
+        <div class="stamped-summary-actions-clear" tabindex="0" role="button" aria-label="Clear filters" style="cursor: pointer;display:none;">Clear filters</div>
+        
+            <div class="stamped-summary-actions-mobile-filter" tabindex="0" role="button" aria-label="More filters" style="cursor: pointer;display:none;">
+            </div>
+         </div>
 	  <section class="productView-details">
         <div class="productView-product">
 
